@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Login_module1.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #cc7832;}
+.s2 { color: #6a8759;}
+.s3 { color: #6897bb;}
+.s4 { color: #808080;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Login_module1.py</font>
+</center></td></tr></table>
+<pre>
+<span class="s1">def </span><span class="s0">login():</span>
+    <span class="s1">import </span><span class="s0">time</span>
+    <span class="s0">print(</span><span class="s2">&quot;</span><span class="s1">\t </span><span class="s2">WELCOME !&quot;</span><span class="s0">)</span>
+    <span class="s0">time.sleep(</span><span class="s3">1</span><span class="s0">)</span>
+    <span class="s1">global </span><span class="s0">username</span>
+    <span class="s0">username = input(</span><span class="s2">&quot;Please enter your username: &quot;</span><span class="s0">)</span>
+    <span class="s0">password = input(</span><span class="s2">&quot;Please enter your password: &quot;</span><span class="s0">)</span>
+    <span class="s0">ReadFile = open(</span><span class="s2">&quot;Username&quot;</span><span class="s1">, </span><span class="s2">'r'</span><span class="s0">)</span>
+    <span class="s1">for </span><span class="s0">account </span><span class="s1">in </span><span class="s0">ReadFile.readlines():  </span><span class="s4"># checking the text file for user existence</span>
+        <span class="s1">if </span><span class="s0">username </span><span class="s1">in </span><span class="s0">account </span><span class="s1">and </span><span class="s0">password </span><span class="s1">in </span><span class="s0">account </span><span class="s1">and </span><span class="s0">password != username </span><span class="s1">in </span><span class="s0">account:</span>
+            <span class="s0">print(</span><span class="s2">&quot;Access granted!&quot;</span><span class="s0">)</span>
+            <span class="s0">print(</span><span class="s2">&quot;Welcome&quot;</span><span class="s1">, </span><span class="s0">username)</span>
+            <span class="s0">ReadFile.close()</span>
+            <span class="s1">break</span>
+    <span class="s1">else</span><span class="s0">:</span>
+        <span class="s0">print(</span><span class="s2">&quot;Incorrect Login credentials, please try again.&quot;</span><span class="s0">)</span>
+        <span class="s0">time.sleep(</span><span class="s3">1</span><span class="s0">)</span>
+        <span class="s0">OpenAccount = input(</span><span class="s2">&quot;Would you like to create an account ?&quot;</span><span class="s0">)</span>
+        <span class="s1">if </span><span class="s0">OpenAccount.lower()[</span><span class="s3">0</span><span class="s0">] == </span><span class="s2">'y'</span><span class="s0">:</span>
+            <span class="s0">print(</span><span class="s2">&quot;NOTICE! </span><span class="s1">\n</span><span class="s2">User name and password must be different ! &quot;</span><span class="s0">)  </span><span class="s4"># to prevent function (login) issues line 9</span>
+            <span class="s0">time.sleep(</span><span class="s3">1</span><span class="s0">)</span>
+            <span class="s0">CreateAccount = open(</span><span class="s2">&quot;Username&quot;</span><span class="s1">, </span><span class="s2">'a'</span><span class="s0">)</span>
+            <span class="s0">CreateAccount.write(input(</span><span class="s2">&quot;Enter New Account name&quot;</span><span class="s0">))</span>
+            <span class="s0">CreateAccount.write(</span><span class="s2">&quot;   &quot;</span><span class="s0">)</span>
+            <span class="s0">CreateAccount.write(input(</span><span class="s2">&quot;Enter New Password&quot;</span><span class="s0">))</span>
+            <span class="s0">CreateAccount.write(</span><span class="s2">&quot;</span><span class="s1">\n</span><span class="s2">&quot;</span><span class="s0">)</span>
+            <span class="s0">CreateAccount.close()</span>
+            <span class="s0">print(</span><span class="s2">&quot;Done!&quot;</span><span class="s0">)</span>
+            <span class="s0">login()</span>
+        <span class="s1">else</span><span class="s0">:</span>
+            <span class="s0">Option1 = input(</span><span class="s2">&quot;would you like to try login again ?&quot;</span><span class="s0">)</span>
+            <span class="s1">if </span><span class="s0">Option1.lower()[</span><span class="s3">0</span><span class="s0">] == </span><span class="s2">'y'</span><span class="s0">:</span>
+                <span class="s0">login()</span>
+            <span class="s1">else</span><span class="s0">:</span>
+                <span class="s0">print(</span><span class="s2">&quot;Goodbye&quot;</span><span class="s0">)</span>
+                
+                
+<span class="s1">class </span><span class="s0">BankAccount:</span>
+    <span class="s1">def </span><span class="s0">__init__(self):</span>
+        <span class="s0">self.balance = </span><span class="s3">0</span>
+
+    <span class="s1">def </span><span class="s0">deposit(self</span><span class="s1">, </span><span class="s0">amount):</span>
+        <span class="s0">self.balance += amount</span>
+
+    <span class="s1">def </span><span class="s0">withdraw(self</span><span class="s1">, </span><span class="s0">amount):</span>
+        <span class="s0">self.balance -= amount</span>
+
+    <span class="s1">def </span><span class="s0">print_balance(self):</span>
+        <span class="s0">print(</span><span class="s2">&quot;Current balance is:&quot;</span><span class="s1">, </span><span class="s0">self.balance)</span>
+
+    <span class="s1">def </span><span class="s0">greet(self):</span>
+        <span class="s0">print(</span><span class="s2">&quot;hello&quot;</span><span class="s1">, </span><span class="s0">username)</span>
+
+
+<span class="s1">def </span><span class="s0">main():</span>
+    <span class="s0">username = BankAccount()</span>
+    <span class="s0">username.greet()</span>
+    <span class="s0">username.deposit(</span><span class="s3">1200</span><span class="s0">)</span>
+    <span class="s0">username.withdraw(</span><span class="s3">200</span><span class="s0">)</span>
+    <span class="s0">username.print_balance()</span>
+    
+    
+<span class="s0">login() </span><span class="s4"># user login function &quot;Username.txt&quot; file needed !</span>
+<span class="s0">main()  </span><span class="s4"># Main function runs the Bank class</span>
+</pre>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76fe8783-5641-4e07-a148-21472c02e811" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scartch.py" beforeDir="false" afterPath="$PROJECT_DIR$/scartch.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1cwPkDp2px4ebfsvM4cwpLsM0QA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HomeWork_5/RecFuncs.py" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager" selected="Python.crypto">
+    <configuration name="OOP_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Shimon_Lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP_practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="crypto" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Shimon_Lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Temp/Rar$DRa16372.38763" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Temp/Rar$DRa16372.38763/crypto.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="factorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Shimon_Lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/מעבדות חשובות/פתרונות" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/מעבדות חשובות/פתרונות/factorial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scartch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Shimon_Lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scartch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="triangle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Shimon_Lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/triangle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.crypto" />
+        <item itemvalue="Python.scartch" />
+        <item itemvalue="Python.factorial" />
+        <item itemvalue="Python.triangle" />
+        <item itemvalue="Python.OOP_practice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76fe8783-5641-4e07-a148-21472c02e811" name="Default Changelist" comment="" />
+      <created>1591436823599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591436823599</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Code_Folding" timestamp="1592930133829">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Code_Folding/0.0.1536.824@0.0.1536.824" timestamp="1592930133829" />
+    <state x="361" y="71" key="#Notifications" timestamp="1595445355107">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1595445355107" />
+    <state x="561" y="167" key="FileChooserDialogImpl" timestamp="1595342622349">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="561" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595342622349" />
+    <state width="1515" height="206" key="GridCell.Tab.0.bottom" timestamp="1595450226524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595450226524" />
+    <state width="1515" height="206" key="GridCell.Tab.0.center" timestamp="1595450226524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595450226524" />
+    <state width="1515" height="206" key="GridCell.Tab.0.left" timestamp="1595450226524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595450226524" />
+    <state width="1515" height="206" key="GridCell.Tab.0.right" timestamp="1595450226524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595450226524" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1595113603266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595113603266" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1595113603266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595113603266" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1595113603266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595113603266" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1595113603266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595113603266" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1595445283705">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595445283705" />
+    <state x="341" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592498611737">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1592498611737" />
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1595370539644">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1595370539644" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592504489066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592504489066" />
+  </component>
+</project>
