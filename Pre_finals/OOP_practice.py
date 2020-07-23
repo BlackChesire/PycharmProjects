@@ -172,3 +172,26 @@ class Rational:
     b=Rational()
     a.init(2,3)
     b.init(4,7)"""
+
+
+class Bucket:
+    def __init__(self, capticty, currentAmount):
+        self.capticty = capticty
+        self.currentAmount = currentAmount
+
+    def empty(self):
+        self.currentAmount = 0
+
+    def isEmpty(self):
+        return self.currentAmount == 0
+
+    def fill(self, litters):
+        self.currentAmount += litters
+        if self.currentAmount > self.capticty:
+            return self.capticty
+        return self.currentAmount
+
+    def toStr(self):
+        return "CAPACITY={0}   CURRENT AMOUNT={1}".format(self.capacity, self.currentAmount)
+
+
