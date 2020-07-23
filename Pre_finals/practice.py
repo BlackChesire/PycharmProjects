@@ -137,3 +137,22 @@ def fibo(n):
         print(f2, end=' ')
         n -= 1
     print()
+
+
+def recsubSetSums(lst, l, r, sum=0):    # sums of all subsets
+    # Print current subset
+    if l > r:
+        print(sum, end=" ")
+        return
+    recsubSetSums(lst, l + 1, r, sum + lst[l])
+    recsubSetSums(lst, l + 1, r, sum)
+
+
+def subSetSums(lst):
+    n = len(lst)
+    recsubSetSums(lst, 0, n - 1)
+
+
+"""lst = [5, 4, 3]
+subSetSums(lst)
+"""

@@ -137,11 +137,22 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
+
 def DictOfdiv(lst):
     d = {}
     for i in lst:
-        d[i] = [j for j in range(1,i) if i%j == 0]
+        d[i] = [j for j in range(1, i) if i % j == 0]
     return d
 
 
-print(DictOfdiv([36,15,6]))
+"""Output: ({12:[2,3,4,6], 36:[2,3,4,6,9,12,18], 52:[2,3,13,26]}, 114, 15)"""
+
+
+def printforward(n): # compress recuresion
+    if n == 0:
+        return
+    printforward(n - 1)
+    print(n)
+
+
+printforward(5)
