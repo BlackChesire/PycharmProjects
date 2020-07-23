@@ -134,3 +134,41 @@ def main():
 
 main()
 """
+
+"dice sides value"
+
+
+class dice:
+    from random import randrange
+
+    def __init__(self, sides, values=0):
+        self.__value = values
+        self.__sides = sides
+
+    def getValue(self):
+        return self.__value
+
+    def roll(self):
+        self.__value = randrang(1, self.__sides + 1)
+
+
+class Rational:
+    def __init__(self, numerator, denominator=1):
+        self.__numerator = numerator
+        self.__denominator = denominator
+
+    def get_numerator(self):
+        return self.__numerator
+
+    def get_denominator(self):
+        return self.__denominator
+
+    def isEqual(self, num):
+        return (self.get_numerator() / self.get_denominator()) == num
+
+
+"""def main():
+    a=Rational()
+    b=Rational()
+    a.init(2,3)
+    b.init(4,7)"""
