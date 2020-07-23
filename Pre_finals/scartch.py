@@ -155,4 +155,9 @@ def printforward(n): # compress recuresion
     print(n)
 
 
-printforward(5)
+def i_len(num: int):
+    i = 0
+    while num:
+        i += 1
+        num //= 10
+    return i
