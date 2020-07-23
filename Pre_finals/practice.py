@@ -137,4 +137,3 @@ def fibo(n):
         print(f2, end=' ')
         n -= 1
     print()
-

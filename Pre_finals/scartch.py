@@ -136,3 +136,12 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n - 1)
+
+def DictOfdiv(lst):
+    d = {}
+    for i in lst:
+        d[i] = [j for j in range(1,i) if i%j == 0]
+    return d
+
+
+print(DictOfdiv([36,15,6]))

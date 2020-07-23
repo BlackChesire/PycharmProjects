@@ -81,3 +81,56 @@ class StudentList:
     def __str__(self):
         return '%s' % (self.__list)
 
+
+class Point:
+    def __init__(self, x, y):
+        self._x = x
+        self._y = y
+
+    def __str__(self):
+        return "x:{0} y:{1}".format(self._x, self._y)
+
+    def get_x(self):
+        return self._x
+
+    def get_y(self):
+        return self._y
+
+
+class Line:
+    def __init__(self, p1, p2):
+        self._p1 = p1
+        self._p2 = p2
+
+    def __str__(self):
+        return "{0} | {1}".format(self._p1, self._p2)
+
+    def get_p1(self):
+        return self._p1
+
+    def get_p2(self):
+        return self._p2
+
+    def slope(self):
+        return ((self._p1.get_y() - self._p2.get_y()) / (self._p1.get_x() - self._p2.get_x()))
+
+    def y_intercept(self):
+        y = self.slope() * (0 - self._p1.get_x()) + self._p1.get_y()
+        if y == 0:
+            return None
+        return y
+
+    def isParallel(self, Li):
+        return Li.slope() == self.slope()
+
+
+"""
+def main():
+      p1 = Point(2,4)
+      p2 = Point(1,6)
+      l2 = Line(p1,p2)
+      l = Line(p1,p2)
+      print(l.isParallel(l2))
+
+main()
+"""
