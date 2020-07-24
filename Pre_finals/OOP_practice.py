@@ -90,6 +90,7 @@ class Point:
     def __str__(self):
         return "x:{0} y:{1}".format(self._x, self._y)
 
+    @property
     def get_x(self):
         return self._x
 
@@ -193,5 +194,3 @@ class Bucket:
 
     def toStr(self):
         return "CAPACITY={0}   CURRENT AMOUNT={1}".format(self.capacity, self.currentAmount)
-
-
