@@ -164,6 +164,6 @@ def pairs2dict(lst):
     for key, value in lst:
         if key not in d.keys():
             d[key] = [value]
-        elif key in d.keys():
+        else:
             d[key].append(value)
     return d
