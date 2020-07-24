@@ -148,7 +148,7 @@ def DictOfdiv(lst):
 """Output: ({12:[2,3,4,6], 36:[2,3,4,6,9,12,18], 52:[2,3,13,26]}, 114, 15)"""
 
 
-def printforward(n): # compress recuresion
+def printforward(n):  # compress recuresion
     if n == 0:
         return
     printforward(n - 1)
@@ -161,3 +161,19 @@ def i_len(num: int):
         i += 1
         num //= 10
     return i
+
+
+lst = [(1, 2), (2, 3), (1, 4), (2, 5), (3, 5), (4, 1), (1, 7)]
+
+
+def pairs2dict(lst):
+    d = {}
+    for key, value in lst:
+        if key not in d.keys():
+            d[key] = [value]
+        elif key in d.keys():
+            d[key].append(value)
+    print(d)
+
+
+pairs2dict(lst)
