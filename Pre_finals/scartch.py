@@ -163,9 +163,6 @@ def i_len(num: int):
     return i
 
 
-lst = [(1, 2), (2, 3), (1, 4), (2, 5), (3, 5), (4, 1), (1, 7)]
-
-
 def pairs2dict(lst):
     d = {}
     for key, value in lst:
@@ -173,7 +170,4 @@ def pairs2dict(lst):
             d[key] = [value]
         elif key in d.keys():
             d[key].append(value)
-    print(d)
-
-
-pairs2dict(lst)
+    return d
