@@ -188,11 +188,10 @@ class Bucket:
     def fill(self, litters):
         self.currentAmount += litters
         if self.currentAmount > self.capticty:
-            return self.capticty
+            self.currentAmount = self.capticty
         return self.currentAmount
 
     def toStr(self):
         return "CAPACITY={0}   CURRENT AMOUNT={1}".format(self.capacity, self.currentAmount)
 
-    def get_amounmt(self):
-        return self.getamounmt()
+
