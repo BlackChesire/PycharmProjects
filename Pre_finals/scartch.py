@@ -111,24 +111,20 @@ def func(n, k):  # print(func(1, 3)) = 4
 
 
 def get_one_number(numbers):
-    # if no numbers -> problem
     if len(numbers) == 0:
         return None
-    # if only 1 element return it
     if len(numbers) == 1:
         return numbers[0]
-    # if more than one element:
-    #   get one number from the list starting at position 1
-    next = get_one_number(numbers[1:])
-    #   find out the length of this number by counting divisions by 10
-    next_copy = next
+    rest = get_one_number(numbers[1:])
+    temp = rest
     length = 0
-    while next_copy > 0:
-        next_copy //= 10
+    while temp > 0:
+        temp //= 10
         length += 1
+    return numbers[0] * (10 ** length) + rest
 
-    # multiply the first number by the length of the rest's "one number" and add that one number
-    return numbers[0] * (10 ** length) + next
+
+print(get_one_number(numbers))
 
 
 def factorial(n):
