@@ -167,3 +167,15 @@ def pairs2dict(lst):
         else:
             d[key].append(value)
     return d
+
+
+def max_of_all(lst):
+    return lambda x: max([f(x) for f in lst])
+
+
+f1 = lambda x: x + 1
+f2 = lambda x: x ** 2
+f_all = max_of_all([f1, f2])
+print(f_all(0))
+print(f_all(1))
+print(f_all(2))
