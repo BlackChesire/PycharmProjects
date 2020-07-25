@@ -156,3 +156,9 @@ def subSetSums(lst):
 """lst = [5, 4, 3]
 subSetSums(lst)
 """
+
+
+s = ["asaf","sarel","shay"]
+p = "saba"
+s.append(p)
+print(s)

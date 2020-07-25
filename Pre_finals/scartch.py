@@ -172,6 +172,7 @@ def pairs2dict(lst):
 def max_of_all(lst):
     return lambda x: max([f(x) for f in lst])
 
+
 def reduce(f, lst):
     first = lst[0]
     for i in lst[1:]:
