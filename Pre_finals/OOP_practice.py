@@ -194,3 +194,6 @@ class Bucket:
 
     def toStr(self):
         return "CAPACITY={0}   CURRENT AMOUNT={1}".format(self.capacity, self.currentAmount)
+
+    
+    """hi sarel its me """
