@@ -141,7 +141,7 @@ def DictOfdiv(lst):
     return d
 
 
-"""Output: ({12:[2,3,4,6], 36:[2,3,4,6,9,12,18], 52:[2,3,13,26]}, 114, 15)"""
+"""Output: ({12:[2,3,4,6], 36:[2,3,4,6,9,12,18], 52:[2,3,13,26]})"""
 
 
 def printforward(n):  # compress recuresion
