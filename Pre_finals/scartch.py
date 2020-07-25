@@ -172,10 +172,12 @@ def pairs2dict(lst):
 def max_of_all(lst):
     return lambda x: max([f(x) for f in lst])
 
+def reduce(f, lst):
+    first = lst[0]
+    for i in lst[1:]:
+        first = f(first, i)
+    return first
 
-f1 = lambda x: x + 1
-f2 = lambda x: x ** 2
-f_all = max_of_all([f1, f2])
-print(f_all(0))
-print(f_all(1))
-print(f_all(2))
+
+def func(x, y):
+    return x + y
