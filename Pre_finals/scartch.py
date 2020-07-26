@@ -182,3 +182,26 @@ def reduce(f, lst):
 
 def func(x, y):
     return x + y
+
+
+def maxList(lst):
+    def maxList(lst):
+        if len(lst) == 1:
+            return lst[0]
+        bgst = maxList(lst[1:])
+        if lst[0] > bgst:
+            return lst[0]
+        else:
+            return bgst
+
+
+def find_num(lst, n):
+    index = 0
+    if lst[0] == n:
+        return index
+    if len(lst) == 1 and lst[0] != n:
+        return -1
+    index += 1
+    return index +find_num(lst[1:], n)
+
+
