@@ -33,6 +33,18 @@ def howManyWays(lst, n):
         res += howManyWays(lst, n - num)
     return res
 
+def SubSetSUM(a, n):
+      if n == 0:
+            return True
+      if len(a) == 0:
+            return False
+      big = max(a)
+      if big<=n:
+            n=n-big
+      a.remove(big)
+      return SubSetSUM(a, n)                
+
+
 
 def insertionSortRecursive(lst):
     n = len(lst)
