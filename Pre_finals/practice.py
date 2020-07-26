@@ -163,14 +163,3 @@ def recsubSetSums(lst, l, r, sum=0):    # sums of all subsets
 def subSetSums(lst):
     n = len(lst)
     recsubSetSums(lst, 0, n - 1)
-
-
-"""lst = [5, 4, 3]
-subSetSums(lst)
-"""
-
-
-s = ["asaf","sarel","shay"]
-p = "saba"
-s.append(p)
-print(s)
