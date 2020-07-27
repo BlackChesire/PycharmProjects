@@ -142,7 +142,6 @@ main()
 
 
 class dice:
-    from random import randrange
 
     def __init__(self, sides, values=0):
         self.__value = values
@@ -152,6 +151,8 @@ class dice:
         return self.__value
 
     def roll(self):
+        from random import randrange
+
         self.__value = randrange(1, self.__sides + 1)
 
 

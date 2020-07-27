@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="76fe8783-5641-4e07-a148-21472c02e811" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Python.practice">
+  <component name="RunManager" selected="Python.OOP_practice">
     <configuration name="OOP_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Shimon_Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,8 +141,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.practice" />
         <item itemvalue="Python.OOP_practice" />
+        <item itemvalue="Python.practice" />
         <item itemvalue="Python.crypto" />
         <item itemvalue="Python.scartch" />
         <item itemvalue="Python.factorial" />
@@ -178,7 +178,13 @@
       <option name="presentableId" value="LOCAL‎00003" />
       <updated>1595849282471</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎00004" summary="Final update">
+      <created>1595849782450</created>
+      <option name="number" value="LOCAL‎00004" />
+      <option name="presentableId" value="LOCAL‎00004" />
+      <updated>1595849782450</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -194,30 +200,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1595445355107" />
-    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1595849281625">
+    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1595849781139">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595849281625" />
+    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595849781139" />
     <state x="561" y="167" key="FileChooserDialogImpl" timestamp="1595342622349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595342622349" />
-    <state width="1007" height="257" key="GridCell.Tab.0.bottom" timestamp="1595849687329">
+    <state width="1007" height="195" key="GridCell.Tab.0.bottom" timestamp="1595856866511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1007" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595849687329" />
-    <state width="1007" height="257" key="GridCell.Tab.0.center" timestamp="1595849687327">
+    <state width="1007" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595856866511" />
+    <state width="1007" height="195" key="GridCell.Tab.0.center" timestamp="1595856866510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1007" height="257" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595849687327" />
-    <state width="1007" height="257" key="GridCell.Tab.0.left" timestamp="1595849687327">
+    <state width="1007" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595856866510" />
+    <state width="1007" height="195" key="GridCell.Tab.0.left" timestamp="1595856866510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1007" height="257" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595849687327" />
-    <state width="1007" height="257" key="GridCell.Tab.0.right" timestamp="1595849687328">
+    <state width="1007" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595856866510" />
+    <state width="1007" height="195" key="GridCell.Tab.0.right" timestamp="1595856866511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1007" height="257" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595849687328" />
+    <state width="1007" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595856866511" />
     <state width="757" height="261" key="GridCell.Tab.1.bottom" timestamp="1595849374996">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
