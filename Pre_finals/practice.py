@@ -350,5 +350,9 @@ def subSetSums(lst):
     a(5)
 
 
+def sum_lonely(lst):
+    new_list =[]
+    new_list = [i for i in lst if i not in new_list]
+    return sum(new_list)
 
-
+sum_lonely([1,2,3])
