@@ -205,3 +205,12 @@ def find_num(lst, n):
     return index +find_num(lst[1:], n)
 
 
+def func(lst_func):
+    return lambda x: sum([i(x) for i in lst_func]) / len(lst_func)
+
+
+a = func([lambda x: x ** 2 + 5 * x + 5, lambda x: x * 2, lambda x: x])
+a(5)
+
+
+
