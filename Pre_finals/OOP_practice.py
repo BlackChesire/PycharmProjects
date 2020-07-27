@@ -149,7 +149,7 @@ class dice:
         return self.__value
 
     def roll(self):
-        self.__value = randrang(1, self.__sides + 1)
+        self.__value = randrange(1, self.__sides + 1)
 
 
 class Rational:
@@ -167,12 +167,8 @@ class Rational:
         return (self.get_numerator() / self.get_denominator()) == num
 
 
-"""def main():
-    a=Rational()
-    b=Rational()
-    a.init(2,3)
-    b.init(4,7)"""
-
+a = Rational(2,4)
+print(a.get_numerator())
 
 class Bucket:
     def __init__(self, capticty, currentAmount):
