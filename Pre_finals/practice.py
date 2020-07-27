@@ -34,6 +34,21 @@ def howManyWays(lst, n):
     return res
 
 
+import math
+
+def prod_funcs(f,g):
+    return lambda x: f(x)*g(x)
+
+def product_funcs(func_lst):
+    product=lambda x: 1
+    for f in func_lst:
+        product = prod_funcs(product,f)
+    return product
+
+func_lst=[math.sin,math.cos,math.tan]
+print(product_funcs(func_lst)(math.pi/4))
+
+
 def SubSetSUM(a, n):
     if n == 0:
         return True
@@ -356,4 +371,3 @@ def sum_lonely(lst):
     return sum(new_list)
 
 
-sum_lonely([1, 2, 3, 1, 2])
