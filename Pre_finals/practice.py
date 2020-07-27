@@ -381,3 +381,23 @@ def binary_search_root(f,a,b, eps = 0.001):
     return binary_search_root(f,m,b,eps)
 
 
+
+def subset_sum(n, A, subset=set()):
+    ''' helper recursive function for finding 
+    all the subsets of lst '''
+    if n==0:
+        print(subset)
+        return True
+    if len(A) == 0 or n<0:
+        return False
+        
+    a = A.pop()
+    if subset_sum(n, A, subset)==True:
+        return True
+    subset.add(a)
+    if subset_sum(n-a, A, subset)==True:
+        return True
+    else:
+        subset.remove(a)
+        A.add(a)
+        return False
