@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76fe8783-5641-4e07-a148-21472c02e811" name="Default Changelist" comment="">
+    <list default="true" id="76fe8783-5641-4e07-a148-21472c02e811" name="Default Changelist" comment="Final update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_practice.py" afterDir="false" />
     </list>
@@ -160,7 +160,18 @@
       <option name="presentableId" value="Default" />
       <updated>1591436823599</updated>
     </task>
+    <task id="LOCAL‎00001" summary="Final update">
+      <created>1595839888121</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1595839888121</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Code_Folding" timestamp="1592930133829">
@@ -171,26 +182,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1595445355107" />
+    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1595839922276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595839922276" />
     <state x="561" y="167" key="FileChooserDialogImpl" timestamp="1595342622349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595342622349" />
-    <state width="1515" height="206" key="GridCell.Tab.0.bottom" timestamp="1595450226524">
+    <state width="1515" height="214" key="GridCell.Tab.0.bottom" timestamp="1595848341353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595450226524" />
-    <state width="1515" height="206" key="GridCell.Tab.0.center" timestamp="1595450226524">
+    <state width="1515" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595848341353" />
+    <state width="1515" height="214" key="GridCell.Tab.0.center" timestamp="1595848341353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595450226524" />
-    <state width="1515" height="206" key="GridCell.Tab.0.left" timestamp="1595450226524">
+    <state width="1515" height="214" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595848341353" />
+    <state width="1515" height="214" key="GridCell.Tab.0.left" timestamp="1595848341353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595450226524" />
-    <state width="1515" height="206" key="GridCell.Tab.0.right" timestamp="1595450226524">
+    <state width="1515" height="214" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595848341353" />
+    <state width="1515" height="214" key="GridCell.Tab.0.right" timestamp="1595848341353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595450226524" />
+    <state width="1515" height="214" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595848341353" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1595113603266">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

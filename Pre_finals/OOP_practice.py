@@ -94,8 +94,12 @@ class Point:
     def get_x(self):
         return self._x
 
-    def get_y(self):
-        return self._y
+    @get_x.setter
+    def get_x(self):
+        if self.get_x == 0:
+            raise ValueError
+        else:
+            return self.get_x
 
 
 class Line:
@@ -137,7 +141,6 @@ main()
 """
 
 
-
 class dice:
     from random import randrange
 
@@ -167,9 +170,6 @@ class Rational:
         return (self.get_numerator() / self.get_denominator()) == num
 
 
-a = Rational(2,4)
-print(a.get_numerator())
-
 class Bucket:
     def __init__(self, capticty, currentAmount):
         self.capticty = capticty
@@ -191,3 +191,21 @@ class Bucket:
         return "CAPACITY={0}   CURRENT AMOUNT={1}".format(self.capacity, self.currentAmount)
 
 
+class Test:
+    def __init__(self, x):
+        self.x = x
+
+    @property
+    def x(self):
+        return self.__x
+
+    @x.setter
+    def x(self, x):
+        if x < 100:
+            self.__x = x
+            print("X value is:", self.x)
+        else:
+            raise ValueError
+
+
+t1 = Test(101)
