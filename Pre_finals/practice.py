@@ -33,17 +33,17 @@ def howManyWays(lst, n):
         res += howManyWays(lst, n - num)
     return res
 
-def SubSetSUM(a, n):
-      if n == 0:
-            return True
-      if len(a) == 0:
-            return False
-      big = max(a)
-      if big<=n:
-            n=n-big
-      a.remove(big)
-      return SubSetSUM(a, n)                
 
+def SubSetSUM(a, n):
+    if n == 0:
+        return True
+    if len(a) == 0:
+        return False
+    big = max(a)
+    if big <= n:
+        n = n - big
+    a.remove(big)
+    return SubSetSUM(a, n)
 
 
 def insertionSortRecursive(lst):
@@ -151,7 +151,7 @@ def fibo(n):
     print()
 
 
-def recsubSetSums(lst, l, r, sum=0):    # sums of all subsets
+def recsubSetSums(lst, l, r, sum=0):  # sums of all subsets
     # Print current subset
     if l > r:
         print(sum, end=" ")
@@ -351,8 +351,9 @@ def subSetSums(lst):
 
 
 def sum_lonely(lst):
-    new_list =[]
-    new_list = [i for i in lst if i not in new_list]
+    new_list = [i for i in lst if lst.count(i) == 1]
+    print(new_list)
     return sum(new_list)
 
-sum_lonely([1,2,3])
+
+sum_lonely([1, 2, 3, 1, 2])
