@@ -371,3 +371,13 @@ def sum_lonely(lst):
     return sum(new_list)
 
 
+def binary_search_root(f,a,b, eps = 0.001):
+    ''' approximates a root of f between a and b '''
+    m = (a+b)/2
+    if f(m)<eps and f(m)>-eps:
+        return m
+    if f(m) >=eps:
+        return binary_search_root(f,a,m,eps)
+    return binary_search_root(f,m,b,eps)
+
+
